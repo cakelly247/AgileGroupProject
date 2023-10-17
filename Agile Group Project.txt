@@ -1,0 +1,47 @@
+Agile Group Project
+
+USER STORIES
+1. As a User, I need to see a list of all the Movies and Tv Shows
+2. As a User, I need to be able to rate a specific TV Show or Movie
+3. As a User, I need to see the Average Rating for a specific Movie/TV Show (Stretch Goal)
+4. As a Developer, I need to be able to add/remove Tv Shows/Movies
+5. As a User, I need to be able to search for Movies/Tv Shows
+6. As a User, I need be able to create my own account to store personal ratings
+7. As a User, I need to be able to create/delete comments for a specific Movie/Tv Show
+
+Stretch Goal
+8. As a User, I want to have Movies/Shows recomended to me based on my ratings compared to their average ratings (Epic Task)
+
+Acceptance Criteria
+1. Users should get back a list of all Movies and TV Shows from the database
+2. Users should be able to rate (from 1-5) a specific Movie or Show, if the input is an integer above 5 or a non-integer return invalid response.
+3. Users should get back an average rating for a specific TV Show or Movie if there are ratings for the respective items.
+4. Developer should be able to remove a TV Show or Movie by it's Id
+ - Developer should be able to add a Tv Show/Movie using the respective model
+5. Users should be able to search for Movies/TV Shows by Title/Genre
+6. Users should be able to create their own accounts using a UserRegister model (Email, UserName, Password and ConfirmPassword)
+7. Users should be to comment on a specific Movie or Tv Show by their Id
+ - Users should be able to delete their comments on a specific Movie/Tv Show
+
+Stretch Goal
+8. Users should be recommended the highest rated shows/movies similar to the User's highest rated shows/movies (Epic Task)
+
+TASKS (tickets)
+1. - Create method for returning all objects in the database (1 point) Germayne
+2. - Create method for changing the rating of a specific Tv Show/Movie (1 point) Jaxon
+3. - Create method for finding the average rating of a Movie/Tv Show (5 point) Stretch(Germayne, Jaxon, Chris)
+4. - Create a README.md (1 point) Germayne
+5. - Create a method for adding a Tv Show/Movie (1 point) Germayne
+6. - Create a method for deleting a Tv Show/Movie by it's Id (1 points) Germayne
+7. - Create a method to display Movies by Title (1 point) Germayne
+8. - Create a method to display Movies by Genre (1 point) Germayne
+9. - Create a method to display Tv Shows by Title (1 Point) Jaxon
+10. - Create a method to display Tv Shows by Genre (1 points) Jaxon
+11. - Create a User Entity (1 Point) Chris
+12. - Create a UserRegister model (1 Point) Chris
+13. - Create a UserService Layer (implements UserService Interface "IUserService") (1 Point) Chris
+14. - Implement the method for finding a specific Tv Show/Movie to rate (1 Point) Chris
+15. - Implement the 'Rating Method' for Users (1 points) Chris
+16. - Create a method for commenting on specific Movie/Tv Shows by it's Id (1 Point) Jaxon
+17. - Create a method for deleting a specific comment by the comments Id (1 point) Jaxon
+   
