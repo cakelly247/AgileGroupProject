@@ -22,3 +22,7 @@ This is a simple C# console application for rating and managing movies and TV sh
 
    ```bash
    git clone https://github.com/your-username/movie-rating-app.git
+
+
+####Trello Link
+https://trello.com/b/jFP6NOCn/agile-group-project
